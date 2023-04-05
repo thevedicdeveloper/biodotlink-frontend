@@ -1,0 +1,26 @@
+html,
+body {
+    height: 100%;
+    margin: 0;
+}
+
+.profile {
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    height: 100vh;
+}
+
+biodotlink-profile {
+    height: 100%;
+    width: 680px;
+    background-color: grey;
+}
+
+
+@media (max-width: 768px) {
+
+    biodotlink-profile {
+        width: 90%;
+    }
+}
