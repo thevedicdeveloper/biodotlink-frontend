@@ -1,20 +1,47 @@
-.bio-button{
+.bio-button {
     //variables
     --button-border: black;
-    --button-padding: 
+    --button-text: black;
 
-
-    width: 100%;
-
-    display: flex;
-    align-items: center;
-
+    box-sizing: border-box;
 
     border: 2px solid var(--button-border);
     border-radius: 16px;
+
+    background-color: white;
+
+    margin: 16px 0;
+    position: relative;
+
+    display: flex;
+    align-items: center;
 }
 
-.bio-button-icon{
+.bio-button:hover{
+    transform: translate3d(0px, 0px, 0px) scale(1.015);
+    transition: transform .15s cubic-bezier(.17,.67,.29,2.71) 0s;
+}
+
+.bio-anchor {
+    box-sizing: border-box;
+    width: 100%;
+    min-height: 60px;
+    padding: 10px;
+    text-decoration: none;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.bio-button-icon {
+    object-fit: cover;
+    position: absolute;
     height: 43px;
     width: 43px;
+}
+
+.bio-button-text {
+    color: var(--button-text);
+    margin: 0 auto;
 }
