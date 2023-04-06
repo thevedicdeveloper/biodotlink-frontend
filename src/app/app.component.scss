@@ -11,7 +11,7 @@ body {
     height: 100vh;
 }
 
-biodotlink-profile {
+bio-profile {
     height: 100%;
     width: 680px;
     background-color: grey;
@@ -20,7 +20,7 @@ biodotlink-profile {
 
 @media (max-width: 768px) {
 
-    biodotlink-profile {
+    bio-profile {
         width: 90%;
     }
 }

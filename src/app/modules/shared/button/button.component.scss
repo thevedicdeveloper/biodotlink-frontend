@@ -1,0 +1,20 @@
+.bio-button{
+    //variables
+    --button-border: black;
+    --button-padding: 
+
+
+    width: 100%;
+
+    display: flex;
+    align-items: center;
+
+
+    border: 2px solid var(--button-border);
+    border-radius: 16px;
+}
+
+.bio-button-icon{
+    height: 43px;
+    width: 43px;
+}

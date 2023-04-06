@@ -1,7 +1,7 @@
 import { Component } from '@angular/core';
 
 @Component({
-  selector: 'biodotlink-profile',
+  selector: 'bio-profile',
   templateUrl: './profile.component.html',
   styleUrls: ['./profile.component.scss']
 })
