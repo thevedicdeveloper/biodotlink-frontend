@@ -1,4 +1,4 @@
-import { Component } from '@angular/core';
+import { Component, Input } from '@angular/core';
 
 @Component({
   selector: 'bio-button',
@@ -6,5 +6,15 @@ import { Component } from '@angular/core';
   styleUrls: ['./button.component.scss']
 })
 export class ButtonComponent {
+
+  @Input("icon") icon: string;
+  @Input("name") name: string;
+  @Input("link") link: string;
+
+  constructor() {
+    this.icon = "";
+    this.name = "";
+    this.link = "";
+  }
 
 }
