@@ -1,18 +1,19 @@
 import { NgModule } from '@angular/core';
-import { CommonModule } from '@angular/common';
+import { BiodotlinkComponent } from './biodotlink.component';
 import { ButtonComponent } from './button/button.component';
 
 
 
 @NgModule({
   declarations: [
+    BiodotlinkComponent,
     ButtonComponent
   ],
   imports: [
-    CommonModule
   ],
   exports: [
+    BiodotlinkComponent,
     ButtonComponent
   ]
 })
-export class SharedModule { }
+export class BiodotlinkModule { }

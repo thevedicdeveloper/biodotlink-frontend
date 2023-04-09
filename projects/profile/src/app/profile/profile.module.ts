@@ -4,7 +4,8 @@ import { CommonModule } from '@angular/common';
 import { ProfileComponent } from './profile.component';
 import { HeaderComponent } from './header/header.component';
 import { BodyComponent } from './body/body.component';
-import { SharedModule } from '../modules/shared/shared.module';
+
+import { BiodotlinkModule } from 'projects/biodotlink/src/public-api';
 
 
 @NgModule({
@@ -15,7 +16,7 @@ import { SharedModule } from '../modules/shared/shared.module';
   ],
   imports: [
     CommonModule,
-    SharedModule  
+    BiodotlinkModule
   ],
   exports: [
     ProfileComponent,
